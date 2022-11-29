@@ -25,7 +25,7 @@ jobs:
           pip install pylint
       - name: Analysing the code with pylint
         run: |
-        python -m pylint
+          python -m pylint
       - name: Lunch Pytest
         run : |
-        python -m pytest
+          python -m pytest
